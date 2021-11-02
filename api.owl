@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/nampi/owl/api#"
+     xml:base="http://purl.org/nampi/owl/api"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.org/nampi/owl/api">
+        <owl:versionIRI rdf:resource="http://purl.org/nampi/owl/api/0.1.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#ancestorOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/nampi/owl/api#ancestorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#descendantOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/nampi/owl/api#descendantOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#hierarchyRoot -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/nampi/owl/api#hierarchyRoot">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#isAuthor -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/nampi/owl/api#isAuthor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#actAuthorProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#actAuthorProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:author.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#actCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#actCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#actOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#actOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#actSourceProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#actSourceProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:source.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#aspectCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#aspectCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#aspectOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#aspectOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#aspectParticipantProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#aspectParticipantProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:actor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#authorCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#authorCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#authorOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#authorOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#entrypoint -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#entrypoint"/>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventAspectProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventAspectProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:aspect.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventAspectTypeProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventAspectTypeProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of a core:aspect type.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The IRI of a sub class of type core:aspect.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventAspectUseTypeProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventAspectUseTypeProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of a sub property of core:uses_aspect.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventAuthorProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventAuthorProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:author.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventDatesProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventDatesProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:comment xml:lang="en">Can contain a combination of two dates that will be used to filter events by. Format: &quot;from|to&quot; where &quot;from&quot; and &quot;to&quot; are both dates either as  &quot;YYYY&quot; or &quot;YYYY-MM-DD&quot;, separated by a pipe char &quot;|&quot;. The dates are included.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;, &quot;date&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventParticipantProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventParticipantProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:actor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventParticipantTypeProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventParticipantTypeProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of a sub class of core:actor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventParticipationTypeProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventParticipationTypeProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of a sub property of core:has_participant.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventPlaceProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventPlaceProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:place.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#eventSourceProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#eventSourceProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:source.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#groupCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#groupCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#groupHasPartProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#groupHasPartProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:group.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#groupOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#groupOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#groupPartOfProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#groupPartOfProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:group.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#hierarchy -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#hierarchy"/>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#iriProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#iriProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:comment xml:lang="en">Contains a iri value.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#orderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#orderByProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:comment xml:lang="en">Contains a comma-separated list of order by clauses in the form of &quot;value1,value2=ASC,value2=DESC&quot; where &quot;valueX&quot; is the name of a parameter to sort by as defined by the individual property specification, optionally followed by &quot;=ASC&quot; or &quot;=DESC&quot; to specify either ascending or descending sort order. Default is ASC.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#personAspectProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#personAspectProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#iriProperty"/>
+        <rdfs:comment xml:lang="en">The IRI of an individual of type core:aspect.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#personCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#personCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#personOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#personOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#placeCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#placeCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#placeOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#placeOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#sourceCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#sourceCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#sourceOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#sourceOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#textProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#textProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#freetextQuery"/>
+        <rdfs:comment xml:lang="en">Filters by text content, this means the rdfs:label and any core:text that is present.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#typeCollection -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#typeCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/hydra/core#Collection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#typeOrderByProperty -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#typeOrderByProperty">
+        <rdfs:subClassOf rdf:resource="http://purl.org/nampi/owl/api#orderByProperty"/>
+        <rdfs:comment xml:lang="en">Possible values: &quot;label&quot;</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#user -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#user"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Property -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    
+
+
+    <!-- http://www.w3.org/ns/hydra/core#Collection -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/hydra/core#Collection"/>
+    
+
+
+    <!-- http://www.w3.org/ns/hydra/core#freetextQuery -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/hydra/core#freetextQuery">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
