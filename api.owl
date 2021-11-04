@@ -7,7 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.org/nampi/owl/api">
-        <owl:versionIRI rdf:resource="http://purl.org/nampi/owl/api/0.1.0"/>
+        <owl:versionIRI rdf:resource="http://purl.org/nampi/owl/api/0.1.1"/>
     </owl:Ontology>
     
 
@@ -293,6 +293,12 @@
     
 
 
+    <!-- http://purl.org/nampi/owl/api#hieararchyRoot -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#hieararchyRoot"/>
+    
+
+
     <!-- http://purl.org/nampi/owl/api#hierarchy -->
 
     <owl:Class rdf:about="http://purl.org/nampi/owl/api#hierarchy"/>
@@ -305,6 +311,12 @@
         <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
         <rdfs:comment xml:lang="en">Contains a iri value.</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/nampi/owl/api#isAuthor -->
+
+    <owl:Class rdf:about="http://purl.org/nampi/owl/api#isAuthor"/>
     
 
 
